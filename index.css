@@ -119,5 +119,38 @@ a {
 }
 
 #projects {
+    background-color:#323A61;
+}
 
+#projects h1 {
+    color:white;
+    font-size:70px;
+    margin-left:10px;
+    padding-top:100px;
+}
+
+#projects p {
+    color:white;
+    margin-left:10px;
+}
+
+.project-container {
+    margin: 10px;
+    display:flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.project-row {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.project-box {
+    margin: 30px;
+    width:20%;
+    height:200px;
+    border:1px solid white;
+    border-radius: 5px;
 }
