@@ -1,0 +1,123 @@
+* {
+    margin: 0; 
+    padding: 0;
+    font-family:"Libre franklin";
+}
+
+#top {
+
+}
+
+.top-banner {
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    background-color:#323A61;
+    height:238px;
+    align-items:end; 
+}
+
+.top-banner-text {
+    display:flex; 
+    flex-direction:column;
+}
+
+.top-banner h1 {
+    color:white; 
+    font-size:90px;
+    margin-left:10px;
+}
+
+.top-banner h3 {
+    color:white;
+    font-size:40;
+    margin-left:10px;
+    margin-bottom:10px;
+    font-weight:200;
+}
+
+.main-container {
+    display:flex; 
+    flex-direction:row;
+    justify-content: space-between;
+    margin:5%;
+}
+
+.left {
+    display:flex; 
+    flex-direction: column; 
+    margin: 20px;
+    padding-left: 40px;
+    width:30%;
+    align-items:center;
+}
+
+.left-image {
+    display:flex; 
+    flex-direction:column;
+    align-items:center;
+    margin: 20px;
+}
+
+#portrait {
+    width:80%; 
+}
+
+.logos {
+    width:80%;
+    display: flex; 
+    flex-direction: row; 
+    justify-content:space-around;
+    margin:20px;
+}
+
+.logo-img:hover {
+    cursor:pointer;
+}
+
+#linkedin {
+    width: 50px;
+}
+
+#github {
+    width: 50px;
+}
+
+#email {
+    width: 50px;
+}
+
+.right {
+    width: 60%;
+    display:flex;
+    align-items:center;
+}
+
+.right-text-container {
+    margin-left: 12.5%;
+    display:flex;
+    align-items:center;
+    padding:40px;
+    height:50%;
+    width:70%;
+    border-radius:5px; 
+    box-shadow: 0px 0px 10px -2px #aaa;
+}
+
+.right-text-container p {
+    color:#323A61;
+    font-size: 50px;
+    font-weight:600;
+}
+
+a {
+    text-decoration:none;
+}
+
+.right-text-container a {
+    color:#DDC256;
+}
+
+#projects {
+
+}
